@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model Layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Thực hành CSS Box Model</h1>
+    <p>So sánh sự khác biệt giữa content-box và border-box.</p>
+
+    <div class="card">
+      <h2>Thẻ 1</h2>
+      <p>Box-sizing: content-box</p>
+      <p>Kích thước thực tế lớn hơn 280 × 150px.</p>
+    </div>
+
+    <div class="card">
+      <h2>Thẻ 2</h2>
+      <p>Box-sizing: border-box</p>
+      <p>Chiều rộng và chiều cao đã bao gồm padding, border.</p>
+    </div>
+
+    <div class="card">
+      <h2>Thẻ 3</h2>
+      <p>Box-sizing: border-box</p>
+      <p>Kích thước được kiểm soát chính xác.</p>
+    </div>
+  </body>
+</html>
